@@ -261,6 +261,7 @@
     <None Include="Icon\logo_64x64.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="ProjectImage\ProjectImage.png" />
     <Resource Include="FodyWeavers.xml" />
     <Content Include="Languages\en-ca.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
