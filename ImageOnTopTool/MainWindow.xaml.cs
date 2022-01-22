@@ -49,12 +49,66 @@ namespace ImageOnTopTool
         {
             InitializeComponent();
             SetLanguages(Properties.Settings.Default.Language);
+            SetSelectedCmbLanguage();
             InitTray();
             ShowInTaskbar = false;
             InitControls();
             SetApplicationAlwaysOnTop();
             _timer.Tick += Timer_Tick;
             _timer.Start();
+        }
+
+        private void SetSelectedCmbLanguage()
+        {
+            string language = Properties.Settings.Default.Language;
+            switch (language)
+            {
+                case "en-us":
+                    cmbLanguage.SelectedIndex = 0;
+                    break;
+                case "en-gb":
+                    cmbLanguage.SelectedIndex = 1;
+                    break;
+                case "en-ca":
+                    cmbLanguage.SelectedIndex = 2;
+                    break;
+                case "es-mx":
+                    cmbLanguage.SelectedIndex = 3;
+                    break;
+                case "es-cr":
+                    cmbLanguage.SelectedIndex = 4;
+                    break;
+                case "es-cl":
+                    cmbLanguage.SelectedIndex = 5;
+                    break;
+                case "es-uy":
+                    cmbLanguage.SelectedIndex = 6;
+                    break;
+                case "zh-cn":
+                    cmbLanguage.SelectedIndex = 7;
+                    break;
+                case "zh-sp":
+                    cmbLanguage.SelectedIndex = 8;
+                    break;
+                case "zh-tw":
+                    cmbLanguage.SelectedIndex = 9;
+                    break;
+                case "ja":
+                    cmbLanguage.SelectedIndex = 10;
+                    break;
+                case "ko":
+                    cmbLanguage.SelectedIndex = 11;
+                    break;
+                case "ru":
+                    cmbLanguage.SelectedIndex = 12;
+                    break;
+                case "de-lu":
+                    cmbLanguage.SelectedIndex = 13;
+                    break;
+                case "it":
+                    cmbLanguage.SelectedIndex = 14;
+                    break;
+            }
         }
 
         private void SetLanguages(string language)
@@ -483,6 +537,11 @@ namespace ImageOnTopTool
                     SetLanguages("it");
                     break;
             }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            _trdSetApplicationAlwaysOnTop?.Abort();
         }
     }
 }
