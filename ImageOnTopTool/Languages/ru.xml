@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Text>
+	<ControlText>
+		<Text Name="DialogText" Value="Выберите изображение"></Text>
+		<Text Name="BtnSelectImage" Value="Выберите изображение"></Text>
+		<Text Name="BtnCloseApp" Value="Закрывать App"></Text>
+		<Text Name="ChkAlwaysOnTop" Value="Всегда на вершине"></Text>
+		<Text Name="Language" Value="Язык"></Text>
+	</ControlText>
+	<OtherText>
+		<Text Name="TrayOpenText" Value="Открытым"></Text>
+		<Text Name="TrayExitText" Value="Выход"></Text>
+	</OtherText>
+</Text>

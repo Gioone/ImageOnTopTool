@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Text>
+	<ControlText>
+		<Text Name="DialogText" Value="이미지 선택"></Text>
+		<Text Name="BtnSelectImage" Value="이미지 선택"></Text>
+		<Text Name="BtnCloseApp" Value="닫다 App"></Text>
+		<Text Name="ChkAlwaysOnTop" Value="항상 상단에"></Text>
+		<Text Name="Language" Value="언어"></Text>
+	</ControlText>
+	<OtherText>
+		<Text Name="TrayOpenText" Value="열려있는"></Text>
+		<Text Name="TrayExitText" Value="닫다"></Text>
+	</OtherText>
+</Text>

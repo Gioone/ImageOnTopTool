@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Text>
+	<ControlText>
+		<Text Name="DialogText" Value="选择图片"></Text>
+		<Text Name="BtnSelectImage" Value="选择图片"></Text>
+		<Text Name="BtnCloseApp" Value="关闭"></Text>
+		<Text Name="ChkAlwaysOnTop" Value="总是置顶"></Text>
+		<Text Name="Language" Value="语言"></Text>
+	</ControlText>
+	<OtherText>
+		<Text Name="TrayOpenText" Value="打开"></Text>
+		<Text Name="TrayExitText" Value="关闭"></Text>
+	</OtherText>
+</Text>

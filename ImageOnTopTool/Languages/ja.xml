@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Text>
+	<ControlText>
+		<Text Name="DialogText" Value="画像を選択"></Text>
+		<Text Name="BtnSelectImage" Value="画像を選択"></Text>
+		<Text Name="BtnCloseApp" Value="選ぶ App"></Text>
+		<Text Name="ChkAlwaysOnTop" Value="常にトップに"></Text>
+		<Text Name="Language" Value="言語"></Text>
+	</ControlText>
+	<OtherText>
+		<Text Name="TrayOpenText" Value="開いた"></Text>
+		<Text Name="TrayExitText" Value="選ぶ"></Text>
+	</OtherText>
+</Text>

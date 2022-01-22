@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Text>
+	<ControlText>
+		<Text Name="DialogText" Value="Select image"></Text>
+		<Text Name="BtnSelectImage" Value="Select image"></Text>
+		<Text Name="BtnCloseApp" Value="Close App"></Text>
+		<Text Name="ChkAlwaysOnTop" Value="Always on Top"></Text>
+		<Text Name="Language" Value="Language"></Text>
+	</ControlText>
+	<OtherText>
+		<Text Name="TrayOpenText" Value="Open"></Text>
+		<Text Name="TrayExitText" Value="Exit"></Text>
+	</OtherText>
+</Text>
